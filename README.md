@@ -13,6 +13,17 @@
 - **吐槽回复展示**：对存在回复的评论批量拉取吐槽内容，并作为代码注释块展示。
 - **代码风格伪装**：根据 IDE 明暗主题，将内容渲染成 Java/Spring 风格的 HTML 代码视图。
 
+## 快速上手
+
+下载 build\distributions 下的zip包 直接作为离线的插件安装到IDEA上
+在 IntelliJ IDEA 中本地安装：
+1. 打开 `Settings` / `Preferences`。
+2. 进入 `Plugins`。
+3. 点击齿轮菜单，选择 `Install Plugin from Disk...`。
+4. 选择 `build/distributions/` 下生成的插件 ZIP 文件。
+5. 重启 IDE。
+如果环境不匹配，可以尝试对源码进行编译后再安装
+
 ## 技术栈
 
 - Kotlin JVM `1.9.25`
