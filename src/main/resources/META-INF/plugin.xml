@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.jandan.reader</id>
+    <name>Code Review Helper</name>
+    <vendor>jandan</vendor>
+    <description><![CDATA[
+    A code review helper tool that displays structured log analysis in your IDE.
+    Helps you review system logs formatted as code.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="LogAnalyzer"
+                    secondary="true"
+                    anchor="bottom"
+                    factoryClass="com.jandan.reader.JandanToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
